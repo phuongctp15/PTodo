@@ -1,0 +1,42 @@
+@import "~antd/dist/antd.css";
+
+.ant-select-multiple .ant-select-selection-item {
+  height: 27px;
+}
+
+.name-app {
+  color: #ff6e01;
+  font-weight: bold;
+}
+
+.listcheck-icon {
+  color: #0078d4;
+}
+
+.author {
+  color: #ff6e01;
+  font-weight: 700;
+}
+
+.desc-app {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.trash-tag {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.trash-icon {
+  margin-left: 10px;
+  color: #ff6e01;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.trash-icon:hover {
+  color: #ff3001;
+}
